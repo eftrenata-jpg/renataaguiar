@@ -2,6 +2,147 @@
 // Default content is in Portuguese. English copy is provided below.
 
 const translations = {
+  pt: {
+    "nav-about": "Sobre",
+    "nav-services": "Serviços",
+    "nav-books": "Livros",
+    "nav-speaking": "Palestras",
+    "nav-contact": "Contato",
+
+    "hero-kicker": "Psicologia, neurociência do bem-estar & EFT",
+    "hero-title": "Cuidando da sua mente com ciência, presença e coração.",
+    "hero-subtitle":
+      "Renata Aguiar é psicóloga, coautora de livros e palestrante. Une neurociência do bem-estar, EFT/TFT e coaching emocional para apoiar você, sua equipe ou o seu evento.",
+    "hero-primary-cta": "Agendar sessão",
+    "hero-secondary-cta": "Contratar palestra",
+    "hero-proof":
+      "Acompanhando pessoas e públicos na construção de bem-estar emocional, autoconhecimento e autoestima.",
+
+    "about-title": "Sobre Renata Aguiar",
+    "about-body-1":
+      "Renata Aguiar é psicóloga com especialização em neurociência do bem-estar e atuação em coaching emocional, EFT (Emotional Freedom Techniques) e TFT (Thought Field Therapy). Ao longo da sua trajetória, tem ajudado pessoas a compreenderem suas emoções, ressignificarem crenças e construírem rotinas mais leves e saudáveis.",
+    "about-body-2":
+      "É coautora dos livros \"SuperAção – Onze autores compartilham as decisões que moldaram seus destinos\" e \"Mulheres Vibrantes – Relatos de quem vive com propósito e alegria\", onde compartilha histórias e reflexões sobre escolhas, coragem e autocuidado.",
+    "about-body-3":
+      "Como palestrante, leva para empresas, escolas, conferências e comunidades temas como bem-estar, autoconhecimento e autoestima, sempre traduzindo a linguagem da neurociência para o dia a dia.",
+    "about-disclaimer":
+      "Renata está registrada como psicóloga no Brasil. Para pessoas residentes nos Estados Unidos, os atendimentos são oferecidos exclusivamente como coaching e orientação em bem-estar, e não se configuram como psicoterapia ou tratamento médico.",
+
+    "services-title": "Serviços",
+    "services-intro":
+      "Escolha a forma de apoio que melhor se encaixa na sua fase de vida ou na necessidade da sua equipe.",
+    "service-coaching-title": "Coaching em bem-estar & autocuidado",
+    "service-coaching-body":
+      "Acompanhamento individual focado em prevenção e cuidado emocional. Sessões online que ajudam você a organizar pensamentos, compreender padrões e criar hábitos alinhados à neurociência do bem-estar.",
+    "service-coaching-item-1": "Construção de rotina emocionalmente saudável.",
+    "service-coaching-item-2": "Manejo de estresse, sobrecarga e autocobrança.",
+    "service-coaching-item-3": "Fortalecimento de autoestima e autocompaixão.",
+    "service-coaching-note":
+      "Para residentes nos EUA, as sessões são oferecidas como coaching em bem-estar, não como psicoterapia.",
+
+    "service-eft-title": "Sessões de EFT & TFT",
+    "service-eft-body":
+      "Técnicas mente–corpo baseadas em toques suaves em pontos de acupuntura (tapping) para liberar emoções acumuladas, reduzir ansiedade e trazer mais equilíbrio ao sistema nervoso.",
+    "service-eft-item-1": "Apoio em momentos de ansiedade, medo e insegurança.",
+    "service-eft-item-2":
+      "Regulagem emocional para desafios específicos (apresentações, conversas difíceis, mudanças).",
+    "service-eft-item-3": "Práticas simples para você aplicar no dia a dia.",
+
+    "service-speaking-title": "Palestras & workshops",
+    "service-speaking-body":
+      "Encontros para empresas, escolas, igrejas e eventos que desejam conversar sobre saúde emocional, propósito e autoestima com base em evidências, linguagem clara e sensibilidade humana.",
+    "service-speaking-item-1": "Temas como bem-estar, autoconhecimento e autoestima.",
+    "service-speaking-item-2": "Conteúdo baseado em neurociência e experiência clínica.",
+    "service-speaking-item-3": "Formatos: palestras, rodas de conversa e workshops.",
+
+    "services-cta-text":
+      "Não precisa ter tudo claro agora. Em poucas linhas você pode contar o que está vivendo e juntos encontraremos o formato ideal.",
+    "services-cta-button": "Falar com a Renata",
+
+    "books-title": "Livros",
+    "books-intro":
+      "Histórias reais, escolhas difíceis e caminhos de propósito, reunidos em obras coletivas.",
+    "book-superacao-title":
+      "SuperAção – Onze autores compartilham as decisões que moldaram seus destinos",
+    "book-superacao-meta": "Coautoria em obra organizada por Renata Pessoa Aguiar.",
+    "book-superacao-body":
+      "Histórias de pessoas que, em momentos-chave, escolheram se posicionar, recomeçar e ressignificar suas trajetórias. No capítulo de Renata, ela aproxima essas decisões da neurociência do bem-estar e do autocuidado emocional.",
+    "book-mulheres-title":
+      "Mulheres Vibrantes – Relatos de quem vive com propósito e alegria",
+    "book-mulheres-meta": "Coautoria em obra organizada por Daiane Souza Gratid.",
+    "book-mulheres-body":
+      "Uma coletânea de relatos de mulheres que encontraram caminhos de propósito, fé e alegria. A participação de Renata traz a perspectiva da saúde emocional e da espiritualidade integrada ao dia a dia.",
+
+    "speaking-title": "Palestras e conferências sobre bem-estar",
+    "speaking-body-1":
+      "Renata leva para o palco uma conversa acolhedora e ao mesmo tempo baseada em evidências, conectando neurociência, espiritualidade e práticas simples para o dia a dia.",
+    "speaking-body-2":
+      "Ideal para empresas, escolas, conferências, comunidades de fé e eventos que desejam cuidar da saúde emocional de seus públicos.",
+    "talk-1-title": "Neurociência do bem-estar no dia a dia",
+    "talk-1-item-1": "Como o cérebro reage ao estresse crônico.",
+    "talk-1-item-2": "Pequenos hábitos que protegem sua saúde emocional.",
+    "talk-1-item-3": "Práticas simples para começar ainda hoje.",
+    "talk-2-title": "Autoconhecimento e autoestima em tempos acelerados",
+    "talk-2-item-1": "Entendendo o diálogo interno e as crenças limitantes.",
+    "talk-2-item-2": "Estratégias para cultivar uma voz interna mais gentil.",
+    "talk-2-item-3": "Ferramentas práticas para o trabalho e para casa.",
+    "talk-3-title": "Cuidando de quem cuida",
+    "talk-3-item-1": "Prevenção de esgotamento em equipes que servem.",
+    "talk-3-item-2": "Limites saudáveis e autocuidado possível.",
+    "talk-3-item-3": "Práticas de respiro e regulação emocional.",
+    "speaking-prompt":
+      "Conte sobre o seu evento em 2 minutos e Renata responde com possibilidades de tema e datas.",
+    "speaking-cta": "Solicitar palestra",
+
+    "testimonials-title": "O que dizem sobre o trabalho",
+    "testimonials-intro":
+      "Depoimentos preservam a confidencialidade e focam na experiência e nos resultados percebidos.",
+    "testimonial-1":
+      "\"As sessões com a Renata me ajudaram a enxergar meus padrões de autocobrança e a criar pequenas mudanças que fizeram muita diferença no meu dia a dia.\"",
+    "testimonial-1-meta": "Cliente de coaching em bem-estar",
+    "testimonial-2":
+      "\"Depois da palestra, a equipe comentou por semanas sobre as reflexões e exercícios. Foi leve, profundo e muito prático.\"",
+    "testimonial-2-meta": "Organizadora de evento corporativo",
+    "testimonial-3":
+      "\"Aprendi ferramentas simples para usar em momentos de ansiedade e hoje consigo me acolher com mais gentileza.\"",
+    "testimonial-3-meta": "Participante de workshop sobre autoestima",
+
+    "contact-title": "Contato & agendamentos",
+    "contact-body-1":
+      "Você não precisa ter o texto perfeito para escrever. Em poucas linhas, conte o que está vivendo ou o que deseja para o seu evento, e Renata responde com próximos passos e possibilidades de agenda.",
+    "contact-email-label": "E-mail",
+    "contact-email-value": "renata_aguiar1@hotmail.com",
+    "contact-whatsapp-label": "WhatsApp",
+    "contact-whatsapp-value": "Enviar mensagem",
+    "contact-instagram-label": "Instagram",
+    "contact-instagram-value": "@psi_renataaguiar",
+
+    "offer-title": "Sessão online de bem-estar emocional",
+    "offer-body":
+      "Encontro individual de 60 minutos combinando neurociência do bem-estar, coaching e técnicas de EFT/TFT. 1 sessão ou pacote de 5 sessões — valores no link de pagamento.",
+    "offer-cta": "Reservar sessão (pagamento online)",
+    "offer-note":
+      "Pagamento via Stripe (1 sessão ou pacote 5 sessões). Após confirmar, você recebe um e-mail para combinar o horário.",
+
+    "form-title": "Envie uma mensagem rápida",
+    "form-intro":
+      "Preencha o formulário abaixo em 1–2 minutos. Você receberá uma resposta diretamente por e-mail.",
+    "form-name-label": "Nome completo",
+    "form-email-label": "E-mail",
+    "form-topic-label": "O que você procura?",
+    "form-message-label":
+      "Conte em poucas linhas o que você está vivendo ou o que deseja para o seu evento",
+    "form-preferred-times-label": "Horários preferidos (opcional)",
+    "form-submit": "Enviar mensagem",
+    "form-footnote":
+      "Seus dados são usados apenas para retorno de contato e não são compartilhados com terceiros.",
+
+    "footer-credits":
+      "© <span id=\"current-year\"></span> Renata Aguiar. Psicóloga (Brasil), especialista em neurociência do bem-estar, EFT/TFT e palestrante.",
+    "footer-disclaimer":
+      "Atendimentos para residentes nos Estados Unidos são oferecidos como coaching em bem-estar e não configuram psicoterapia, diagnóstico ou tratamento médico.",
+    "footer-email-link": "E-mail",
+  },
   en: {
     "nav-about": "About",
     "nav-services": "Services",
@@ -192,11 +333,8 @@ function initLanguageToggle() {
     btn.addEventListener("click", () => {
       const chosen = btn.dataset.lang;
       if (!chosen) return;
-      if (chosen === "en") {
-        setLanguage("en");
-      } else {
-        window.location.reload();
-      }
+      setLanguage(chosen);
+      initCurrentYear();
     });
   });
 
