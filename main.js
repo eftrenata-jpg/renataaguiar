@@ -30,19 +30,19 @@ const translations = {
 
     "services-title": "Serviços",
     "services-intro":
-      "Quatro formas de trabalhar com Renata: coaching, sessões de EFT/TFT, formação em EFT/TFT e palestras para grupos e eventos.",
+      "Coaching · Sessões EFT/TFT · Formação EFT/TFT · Palestras",
     "service-coaching-title": "Coaching em bem-estar & autocuidado",
     "service-coaching-body":
-      "Encontros individuais online para organizar pensamentos, entender padrões emocionais e construir uma rotina mais leve e intencional.",
+      "1:1 online para organizar pensamentos, padrões emocionais e rotina mais leve.",
     "service-coaching-item-1": "Construção de rotina emocionalmente saudável.",
     "service-coaching-item-2": "Manejo de estresse, sobrecarga e autocobrança.",
     "service-coaching-item-3": "Fortalecimento de autoestima e autocompaixão.",
     "service-coaching-note":
-      "Para residentes nos EUA, as sessões são oferecidas como coaching em bem-estar, não como psicoterapia.",
+      "EUA: oferta como coaching em bem-estar, não psicoterapia.",
 
     "service-eft-title": "Sessões de EFT & TFT",
     "service-eft-body":
-      "Sessões com técnicas de tapping em pontos específicos do corpo para aliviar ansiedade, liberar tensões e acalmar o sistema nervoso.",
+      "Tapping em pontos do corpo para aliviar ansiedade e acalmar o sistema nervoso.",
     "service-eft-item-1": "Apoio em momentos de ansiedade, medo e insegurança.",
     "service-eft-item-2":
       "Regulagem emocional para desafios específicos (apresentações, conversas difíceis, mudanças).",
@@ -50,14 +50,14 @@ const translations = {
 
     "service-speaking-title": "Palestras & workshops",
     "service-speaking-body":
-      "Conversas leves e profundas sobre bem-estar, propósito e autoestima, pensadas para empresas, escolas, igrejas e eventos.",
+      "Bem-estar, propósito e autoestima para empresas, escolas, igrejas e eventos.",
     "service-speaking-item-1": "Temas como bem-estar, autoconhecimento e autoestima.",
     "service-speaking-item-2": "Conteúdo baseado em neurociência e experiência clínica.",
     "service-speaking-item-3": "Formatos: palestras, rodas de conversa e workshops.",
 
     "service-training-title": "Formação em EFT & TFT",
     "service-training-body":
-      "Treinamentos para pessoas que desejam se aprofundar e atuar com EFT/TFT, em formatos individuais ou em grupo.",
+      "Formação para atuar com EFT/TFT — individual ou em grupo.",
     "service-training-item-1":
       "Conteúdo teórico e prático com foco em aplicação responsável.",
     "service-training-item-2":
@@ -72,16 +72,18 @@ const translations = {
     "books-title": "Livros",
     "books-intro":
       "Histórias reais, escolhas difíceis e caminhos de propósito, reunidos em obras coletivas.",
-    "book-superacao-title":
-      "SuperAção – Onze autores compartilham as decisões que moldaram seus destinos",
+    "book-superacao-title": "SuperAção",
+    "book-superacao-tagline":
+      "Onze autores compartilham as decisões que moldaram seus destinos.",
     "book-superacao-meta": "Coautoria em obra organizada por Renata Pessoa Aguiar.",
     "book-superacao-body":
-      "Histórias de pessoas que, em momentos-chave, escolheram se posicionar, recomeçar e ressignificar suas trajetórias. No capítulo de Renata, ela aproxima essas decisões da neurociência do bem-estar e do autocuidado emocional.",
-    "book-mulheres-title":
-      "Mulheres Vibrantes – Relatos de quem vive com propósito e alegria",
+      "Histórias de pessoas que, em momentos-chave, escolheram se posicionar e ressignificar suas trajetórias. No capítulo de Renata, neurociência do bem-estar e autocuidado emocional.",
+    "book-mulheres-title": "Mulheres Vibrantes",
+    "book-mulheres-tagline":
+      "Relatos de quem vive com propósito e alegria.",
     "book-mulheres-meta": "Coautoria em obra organizada por Daiane Souza Gratid.",
     "book-mulheres-body":
-      "Uma coletânea de relatos de mulheres que encontraram caminhos de propósito, fé e alegria. A participação de Renata traz a perspectiva da saúde emocional e da espiritualidade integrada ao dia a dia.",
+      "Coletânea de relatos de mulheres que encontraram caminhos de propósito, fé e alegria. Renata traz a perspectiva da saúde emocional e da espiritualidade no dia a dia.",
 
     "speaking-title": "Palestras e conferências sobre bem-estar",
     "speaking-body-1":
@@ -181,21 +183,21 @@ const translations = {
 
     "services-title": "Services",
     "services-intro":
-      "Four ways to work with Renata: coaching, EFT/TFT sessions, EFT/TFT professional training and talks for groups and events.",
+      "Coaching · EFT/TFT sessions · EFT/TFT training · Talks",
     "service-coaching-title": "Wellness & self-care coaching",
     "service-coaching-body":
-      "Online 1:1 sessions to organize your thoughts, understand emotional patterns and build a lighter, more intentional routine.",
+      "1:1 online to organize your thoughts, emotional patterns and a lighter routine.",
     "service-coaching-item-1": "Building an emotionally healthy routine.",
     "service-coaching-item-2":
       "Managing stress, overload and excessive self-demand.",
     "service-coaching-item-3":
       "Strengthening self-esteem and self-compassion.",
     "service-coaching-note":
-      "For residents in the United States, sessions are offered as wellbeing coaching and do not constitute psychotherapy.",
+      "US: offered as wellbeing coaching, not psychotherapy.",
 
     "service-eft-title": "EFT & TFT sessions",
     "service-eft-body":
-      "Sessions using gentle tapping on specific points of the body to ease anxiety, release tension and calm the nervous system.",
+      "Tapping on body points to ease anxiety and calm the nervous system.",
     "service-eft-item-1":
       "Support in moments of anxiety, fear and insecurity.",
     "service-eft-item-2":
@@ -205,7 +207,7 @@ const translations = {
 
     "service-speaking-title": "Talks & workshops",
     "service-speaking-body":
-      "Light, deep conversations on wellbeing, purpose and self-esteem designed for companies, schools, churches and events.",
+      "Wellbeing, purpose and self-esteem for companies, schools, churches and events.",
     "service-speaking-item-1":
       "Topics such as wellbeing, self-knowledge and self-esteem.",
     "service-speaking-item-2":
@@ -215,7 +217,7 @@ const translations = {
 
     "service-training-title": "EFT & TFT professional training",
     "service-training-body":
-      "Training for people who want to deepen and work with EFT/TFT, in individual or group formats.",
+      "Training to practice EFT/TFT — individual or group.",
     "service-training-item-1":
       "Theory and practice with a strong focus on responsible application.",
     "service-training-item-2":
@@ -230,18 +232,20 @@ const translations = {
     "books-title": "Books",
     "books-intro":
       "Real stories, hard choices and paths of purpose gathered in collective works.",
-    "book-superacao-title":
-      "SuperAção – Eleven authors share the decisions that shaped their destinies",
+    "book-superacao-title": "SuperAção",
+    "book-superacao-tagline":
+      "Eleven authors share the decisions that shaped their destinies.",
     "book-superacao-meta":
       "Co-authorship in a work organized by Renata Pessoa Aguiar.",
     "book-superacao-body":
-      "Stories of people who, at key moments, chose to take a stand, start over and reframe their journeys. In Renata’s chapter, she brings these decisions closer to the neuroscience of wellbeing and emotional self-care.",
-    "book-mulheres-title":
-      "Mulheres Vibrantes – Stories of those who live with purpose and joy",
+      "Stories of people who, at key moments, chose to take a stand and reframe their journeys. In Renata’s chapter, neuroscience of wellbeing and emotional self-care.",
+    "book-mulheres-title": "Mulheres Vibrantes",
+    "book-mulheres-tagline":
+      "Stories of those who live with purpose and joy.",
     "book-mulheres-meta":
       "Co-authorship in a work organized by Daiane Souza Gratid.",
     "book-mulheres-body":
-      "A collection of stories from women who found paths of purpose, faith and joy. Renata’s contribution brings the perspective of emotional health and spirituality integrated into everyday life.",
+      "A collection of stories from women who found paths of purpose, faith and joy. Renata brings the perspective of emotional health and spirituality in everyday life.",
 
     "speaking-title": "Talks and conferences on wellbeing",
     "speaking-body-1":
