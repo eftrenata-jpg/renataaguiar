@@ -29,7 +29,7 @@ body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
     "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top left, #fff7f2 0, #f6f2ff 35%, #faf7f5 80%);
+  background: #f7f3f0;
   color: var(--text-main);
   line-height: 1.6;
 }
@@ -232,8 +232,8 @@ a {
   background: var(--bg-alt);
   border-radius: var(--radius-lg);
   padding: 40px 32px;
-  box-shadow: 0 20px 60px rgba(15, 13, 25, 0.06);
-  border: 1px solid var(--border-subtle);
+  box-shadow: 0 10px 30px rgba(15, 13, 25, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
 .section-header {
@@ -288,7 +288,7 @@ a {
 }
 
 .card {
-  padding: 20px 18px;
+  padding: 18px 16px;
   border-radius: var(--radius-md);
   background: #ffffff;
   border: 1px solid var(--border-subtle);

@@ -12,7 +12,7 @@ const translations = {
     "hero-kicker": "Psicologia, neurociência do bem-estar & EFT",
     "hero-title": "Cuidando da sua mente com ciência, presença e coração.",
     "hero-subtitle":
-      "Renata Aguiar é psicóloga, coautora de livros e palestrante. Une neurociência do bem-estar, EFT/TFT e coaching emocional para apoiar você, sua equipe ou o seu evento.",
+      "Psicóloga, coautora de livros e palestrante. Renata une neurociência do bem-estar, EFT/TFT e coaching emocional para ajudar você a cuidar da mente, das emoções e dos relacionamentos.",
     "hero-primary-cta": "Agendar sessão",
     "hero-secondary-cta": "Contratar palestra",
     "hero-proof":
@@ -30,10 +30,10 @@ const translations = {
 
     "services-title": "Serviços",
     "services-intro":
-      "Escolha a forma de apoio que melhor se encaixa na sua fase de vida ou na necessidade da sua equipe.",
+      "Três formas simples de trabalhar com Renata: sessões individuais, sessões de EFT/TFT e palestras para grupos e eventos.",
     "service-coaching-title": "Coaching em bem-estar & autocuidado",
     "service-coaching-body":
-      "Acompanhamento individual focado em prevenção e cuidado emocional. Sessões online que ajudam você a organizar pensamentos, compreender padrões e criar hábitos alinhados à neurociência do bem-estar.",
+      "Encontros individuais online para organizar pensamentos, entender padrões emocionais e construir uma rotina mais leve e intencional.",
     "service-coaching-item-1": "Construção de rotina emocionalmente saudável.",
     "service-coaching-item-2": "Manejo de estresse, sobrecarga e autocobrança.",
     "service-coaching-item-3": "Fortalecimento de autoestima e autocompaixão.",
@@ -42,7 +42,7 @@ const translations = {
 
     "service-eft-title": "Sessões de EFT & TFT",
     "service-eft-body":
-      "Técnicas mente–corpo baseadas em toques suaves em pontos de acupuntura (tapping) para liberar emoções acumuladas, reduzir ansiedade e trazer mais equilíbrio ao sistema nervoso.",
+      "Sessões com técnicas de tapping em pontos específicos do corpo para aliviar ansiedade, liberar tensões e acalmar o sistema nervoso.",
     "service-eft-item-1": "Apoio em momentos de ansiedade, medo e insegurança.",
     "service-eft-item-2":
       "Regulagem emocional para desafios específicos (apresentações, conversas difíceis, mudanças).",
@@ -50,7 +50,7 @@ const translations = {
 
     "service-speaking-title": "Palestras & workshops",
     "service-speaking-body":
-      "Encontros para empresas, escolas, igrejas e eventos que desejam conversar sobre saúde emocional, propósito e autoestima com base em evidências, linguagem clara e sensibilidade humana.",
+      "Conversas leves e profundas sobre bem-estar, propósito e autoestima, pensadas para empresas, escolas, igrejas e eventos.",
     "service-speaking-item-1": "Temas como bem-estar, autoconhecimento e autoestima.",
     "service-speaking-item-2": "Conteúdo baseado em neurociência e experiência clínica.",
     "service-speaking-item-3": "Formatos: palestras, rodas de conversa e workshops.",
@@ -153,7 +153,7 @@ const translations = {
     "hero-kicker": "Psychology, neuroscience of wellbeing & EFT",
     "hero-title": "Caring for your mind with science, presence, and heart.",
     "hero-subtitle":
-      "Renata Aguiar is a psychologist, co-author and speaker. She weaves neuroscience of wellbeing, EFT/TFT and emotional coaching to support you, your team or your event.",
+      "Psychologist, co-author and speaker. Renata weaves neuroscience of wellbeing, EFT/TFT and emotional coaching to help you care for your mind, emotions and relationships.",
     "hero-primary-cta": "Book a session",
     "hero-secondary-cta": "Book a talk",
     "hero-proof":
@@ -171,10 +171,10 @@ const translations = {
 
     "services-title": "Services",
     "services-intro":
-      "Choose the type of support that best fits your season of life or your team’s needs.",
+      "Three simple ways to work with Renata: 1:1 sessions, EFT/TFT sessions and talks for groups and events.",
     "service-coaching-title": "Wellness & self-care coaching",
     "service-coaching-body":
-      "One-to-one support focused on prevention and emotional care. Online sessions that help you organize thoughts, understand patterns and create habits aligned with the neuroscience of wellbeing.",
+      "Online 1:1 sessions to organize your thoughts, understand emotional patterns and build a lighter, more intentional routine.",
     "service-coaching-item-1": "Building an emotionally healthy routine.",
     "service-coaching-item-2":
       "Managing stress, overload and excessive self-demand.",
@@ -185,7 +185,7 @@ const translations = {
 
     "service-eft-title": "EFT & TFT sessions",
     "service-eft-body":
-      "Mind–body techniques based on gentle tapping on acupuncture points to release stored emotions, reduce anxiety and bring more balance to the nervous system.",
+      "Sessions using gentle tapping on specific points of the body to ease anxiety, release tension and calm the nervous system.",
     "service-eft-item-1":
       "Support in moments of anxiety, fear and insecurity.",
     "service-eft-item-2":
@@ -195,7 +195,7 @@ const translations = {
 
     "service-speaking-title": "Talks & workshops",
     "service-speaking-body":
-      "Sessions for companies, schools, churches and events that want to speak about emotional health, purpose and self-esteem with evidence-based, clear and sensitive language.",
+      "Light, deep conversations on wellbeing, purpose and self-esteem designed for companies, schools, churches and events.",
     "service-speaking-item-1":
       "Topics such as wellbeing, self-knowledge and self-esteem.",
     "service-speaking-item-2":
