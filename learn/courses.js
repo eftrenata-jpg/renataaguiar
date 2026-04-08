@@ -49,8 +49,12 @@
     const stored = localStorage.getItem(accessKey);
     const gate = document.getElementById("access-gate");
 
+    // During preview/feedback phase: hide the gate entirely
+    // TODO: Re-enable gate when Stripe links are live by removing this line
+    if (gate) gate.style.display = "none";
+
     if (!stored && gate) {
-      gate.classList.add("is-visible");
+      // gate.classList.add("is-visible");
       return false;
     }
     return true;
@@ -703,22 +707,21 @@
   // ── Initialize ────────────────────────────────────────
   document.addEventListener("DOMContentLoaded", () => {
     initLanguage();
-    const hasAccess = checkAccess();
-    if (hasAccess) {
-      restoreProgress();
-      initQuizzes();
-      initScenarios();
-      initTapDiagrams();
-      initPointQuizzes();
-      initReactionDemo();
-      initPhraseBuilders();
-      initAlgoSelectors();
-      initFlowPickers();
-      initFlipCards();
-      initPositionBuilders();
-      initBackToTop();
-      initKeyboardNav();
-    }
+    checkAccess();
+    // Always initialize interactive elements (even in preview/feedback mode)
+    restoreProgress();
+    initQuizzes();
+    initScenarios();
+    initTapDiagrams();
+    initPointQuizzes();
+    initReactionDemo();
+    initPhraseBuilders();
+    initAlgoSelectors();
+    initFlowPickers();
+    initFlipCards();
+    initPositionBuilders();
+    initBackToTop();
+    initKeyboardNav();
     updateProgressBar();
   });
 })();

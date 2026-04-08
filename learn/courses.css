@@ -1322,14 +1322,34 @@
 
 .tap-diagram {
   position: relative;
-  max-width: 400px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 600px;
   margin: 24px auto;
   user-select: none;
 }
 
 .tap-diagram svg {
-  width: 100%;
+  width: 220px;
   height: auto;
+  flex-shrink: 0;
+}
+
+.tap-info {
+  flex: 1;
+}
+
+/* Stack vertically on small screens */
+@media (max-width: 520px) {
+  .tap-diagram {
+    flex-direction: column;
+    align-items: center;
+    max-width: 280px;
+  }
+  .tap-diagram svg {
+    width: 200px;
+  }
 }
 
 .tap-point {
@@ -1369,9 +1389,9 @@
 }
 
 .tap-info {
-  text-align: center;
-  margin-top: 12px;
+  text-align: left;
   min-height: 60px;
+  padding-top: 8px;
 }
 
 .tap-info-name {
@@ -1398,6 +1418,19 @@
   font-size: 0.82rem;
   color: var(--text-muted);
   margin: 0;
+}
+
+/* Quiz diagram: centered, not side-by-side */
+.point-quiz .tap-diagram {
+  flex-direction: column;
+  align-items: center;
+  max-width: 260px;
+}
+.point-quiz .tap-diagram svg {
+  width: 240px;
+}
+.point-quiz .tap-info {
+  text-align: center;
 }
 
 /* ── Point ID Quiz (interactive SVG) ─────────────────── */
